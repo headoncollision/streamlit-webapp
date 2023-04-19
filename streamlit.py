@@ -8,8 +8,11 @@ number1 = st.number_input('Insert first number')
 number2 = st.number_input('Insert second number')
 number2 = st.number_input('Insert third number')
 
-'''lis = [number1 , number2 , number3]
+def maximum(n1,n2,n3):
+  lis = [number1 , number2 , number3]
+  a = max(lis)
+  st.success(f"Maximum = {a}")
 
-a = max(lis)'''
+if st.button("Calculate result"):
+    maximum(number1 , number2 , number3)
 
-st.write('The largest number is ' , max(number1 , number2 , number3))
