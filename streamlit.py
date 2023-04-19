@@ -6,7 +6,7 @@ st.header('_Enter your inputs here:_ ')
 
 number1 = st.number_input('Insert first number')
 number2 = st.number_input('Insert second number')
-number2 = st.number_input('Insert third number')
+number3 = st.number_input('Insert third number')
 
 def maximum():
   lis = [number1 , number2 , number3]
